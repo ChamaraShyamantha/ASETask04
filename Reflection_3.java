@@ -1,0 +1,12 @@
+package four.task;
+
+public class Reflection_3 {
+    public static void main(String[] args) {
+
+        Primary primary = new Primary();
+
+        System.out.println(primary.getClass());
+        System.out.println(primary.getClass().getName());
+
+    }
+}
